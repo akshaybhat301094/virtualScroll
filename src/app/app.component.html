@@ -1,0 +1,11 @@
+
+<h1>Virtual Scroll Demo</h1>
+
+<cdk-virtual-scroll-viewport class="list-container list-group" [itemSize]="50">
+  <div *cdkVirtualFor="let size of fixedSizeData; let i = index"
+       class="list-group-item"
+       [style.height.px]="size">
+     Item {{i}}
+   </div>
+</cdk-virtual-scroll-viewport>
+

@@ -1,0 +1,17 @@
+.list-container{
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  margin: auto;
+
+}
+
+.list-container div {
+  border: 1px solid #8b3838;
+}
+
+h1{
+  text-align: center;
+  margin-top: 200px;
+}
